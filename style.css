@@ -31,13 +31,21 @@ p {
 }
 .header {
     padding: 1.5rem 0;
-    position: relative;
+    
 
 }
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    padding: 0.5rem 1.2rem;
+    width:100%;
+    background-color: #f4f7f6;
+    
 }
 .nav {
     display: flex;
@@ -66,6 +74,7 @@ p {
 .social {
     display: flex;
     
+    
 }
 .social-link {
     margin-right: 1.3rem;
@@ -76,7 +85,7 @@ p {
 }
 .featured {
     display: flex;
-    padding-top: 0.5rem;
+    padding-top: 2rem;
     
 }
 
@@ -88,7 +97,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 0.18em;
     color: #000000;
-    padding-bottom: 0.5rem;
+   
 }
 .featured-img{
     display: block;
@@ -317,9 +326,10 @@ p {
      display: flex;
      justify-content: space-around;
  
-     transform: scale(0.7, 0.7);
+     transform: scale(0.78, 0.78);
  }
  .footer-social {
+     margin: 0 -2rem 0 -2rem;
      padding: 0.4rem;
      display: flex;
      justify-content: center;
