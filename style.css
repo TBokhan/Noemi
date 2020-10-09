@@ -398,7 +398,8 @@ p {
             margin-left: 5.5rem;
         }         
         .nav {
-            margin-left: 10rem;
+            margin-left: 0;
+            padding-left: 6rem;
             flex-wrap: nowrap;
             
         }
